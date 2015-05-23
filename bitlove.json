@@ -1,0 +1,11 @@
+{ "name": "bitlove.org",
+  "url": "http://bitlove.org/search/%@",
+  "xpath": "//article[@class='item filterable']",
+  "title": [ "div", ".title", "h3", "a" ],
+  "image": [ "div", ".logo", "#src" ],
+  "date": [ "div", ".right", ".published" ],
+  "date_format": "yyyy-MM-dd HH:mm",
+  "size": [ ".download", ".torrent", "a", ".size" ],
+  "seeds": [ ".download", ".stats", ".seeders", "dt" ],
+  "peers": [ ".download", ".stats", ".leechers", "dt" ],
+  "torrent": [ ".download", ".torrent", "a", "#href" ] }
