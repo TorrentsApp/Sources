@@ -1,0 +1,10 @@
+{ "name": "gameupdates.org",
+  "url": "http://www.gameupdates.org/index.php?search=%@",
+  "xpath": "//tbody//tr",
+  "title": [ "td#2", "a" ],
+  "date": [ "td#6" ],
+  "date_format": "yyyy-MM-dd",
+  "size": [ "td#7" ],
+  "seeds": [ "td#8", "b", "a", "font" ],
+  "peers": [ "td#9", "b", "a", "font" ],
+  "torrent": [ "td#3", "a", "#href" ] }
