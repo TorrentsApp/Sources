@@ -1,0 +1,10 @@
+{ "name": "etree.org",
+  "url": "http://bt.etree.org/?searchsss=%@",
+  "xpath": "//tbody//tr[@align='right']",
+  "title": [ "td#1", "a", "b" ],
+  "date": [ "td#5" ],
+  "date_format": "MM/dd HH:mm",
+  "size": [ "td#6" ],
+  "seeds": [ "td#8", "a" ],
+  "peers": [ "td#9", "a" ],
+  "torrent": [ "td#2", "a", "#href" ] }
